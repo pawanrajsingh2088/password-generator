@@ -1,0 +1,48 @@
+@media only screen and (max-width:950px) {
+    h1{
+        font-size: 4vh;
+    }
+    .container{
+        width: 85vw;
+    }
+    .box1{
+        width: 80vw;
+    }
+    .box1 input{
+        width: 30vw;
+    }
+    .box1 button{
+        width: 15vw;
+    }
+    .range{
+        width: 15vw;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    h1{
+        font-size: 3vh;
+    }
+    .container{
+        width: 95vw;
+        height: auto;
+    }
+    .box1{
+        flex-direction: column;
+        height: 35vh;
+        width: auto;
+    }
+    .box1 input{
+        width: 75vw;
+    }
+    .box1 button{
+        width: 45vw;
+    }
+    .box2{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .one input{
+        width: 60vw;
+    }
+}
